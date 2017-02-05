@@ -1,0 +1,49 @@
+body {
+  background: #64b8c1;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+::selection {
+  background: #6d75bf;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+#clock {
+  color: #fff;
+  font-size: 5rem;
+  letter-spacing: .3rem;
+  text-shadow: .65rem .35rem .85rem rgba(0, 0, 0, .4);
+}
+
+@media screen and (max-width: 400px) {
+  #clock {
+    font-size: 4rem;
+  }
+}
